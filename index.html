@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+        <title>Youtube</title>
+    </head>
+    <body>
+            
+        <!--Barra Lateral-->
+        <aside class="menuprincipal">
+            <!--Burger Menu-->
+            <div id="contenedor">
+                <img src="./imagenes/menu.png" alt="Menu--" class="iconos">
+            
+            </div>
+            <br>
+            <!--Home-->
+            <div>
+                <a href="https://www.youtube.com/" class="textoaside">
+                    <img src="./imagenes/inicio.PNG" alt="inicio" class="iconos">  
+                    <p>Inicio</p>
+                </a> 
+            </div>
+            <!--shorts-->
+            <div>
+                <a href="https://www.youtube.com/shorts/tDO2SSSD06s" class="textoaside"> 
+                <img src="./imagenes/shorts.PNG" alt="shorts" class="iconos">
+                <p>Shorts</p>  
+                </a>
+            </div>
+            <!--Suscripciones-->
+            <div>
+                <a href="https://www.youtube.com/feed/subscriptions">
+                <img src="./imagenes/suscripiones.PNG" alt="suscripiones" class="iconos"> 
+                </a>
+                <a href="https://www.youtube.com/feed/subscriptions" class="textoaside">
+                <p>Suscripciones</p> 
+                </a> 
+                
+            </div>
+            <!--Biblioteca-->
+            <div>
+                <a href="https://www.youtube.com/feed/library">
+                <img src="./imagenes/biblioteca.PNG" alt="biblioteca" class="iconos"> 
+                </a>
+                <a href="https://www.youtube.com/feed/library" class="textoaside">
+                <p>Biblioteca</p>  
+                </a>
+            </div>
+        </aside>
+        
+
+        <!--Barra de navegacion, Recomendaciones y videos-->
+        <main class="contenedor1">
+
+            <!--Barra de Navegacion-->
+            <nav class="nav">
+                <!--Logotipo de Youtube-->
+                <div>
+                    
+                    <a href="https://www.youtube.com/">
+                    <img src="./imagenes/youtube.PNG" alt="logoyoutube">  
+                    </a>
+                </div>
+                <!--Input y Boton de microfono-->
+                    <!--Input y Lupa-->
+                    <div class="input">
+                        <div class="inputylupa">
+                            <input type="text" placeholder="Buscar" id="buscar">
+                            <button id="botonlupa">
+                                <img src="./imagenes/lupa.png" alt="Lupa" id="lupa">
+                            </button> 
+                        </div>
+                        <!--Microfono-->
+                        <button id="microboton">
+                            <img src="./imagenes/microfono.png" alt="Microfono" class="micro">
+                        </button>
+                    </div>
+                
+                <!--Acciones de usuario-->
+                <div class="ultima">
+                    <a href="https://studio.youtube.com/channel/UCkoGTSQKoPDqMy4jvbczZYA/videos?d=ud"> <img src="./imagenes/crear.PNG" alt="Subir Video" width="40px" > 
+                    </a>
+                <a href="https://www.youtube.com/account_notifications">
+                    <img src="./imagenes/notificaiones.PNG" alt="Notificaciones" width="25px">
+                </a>
+                <a href="https://www.youtube.com/account">
+                    <img src="./imagenes/perfil.PNG" alt="Perfil" width="40px">
+                </a>
+                </div>
+                
+            </nav>
+
+            <!--Barra de recomendaciones-->
+            <section id="barraDeRecomendados">
+                <a href="https://www.youtube.com/watch?v=-2z3YwCrGMc" class="botones">Música</a>
+                    <button class="boton">
+                        <a href="https://www.youtube.com/watch?v=-2z3YwCrGMc">Música</a>
+                    </button>
+                    <button class="boton">Turismo</button>
+                    <button class="boton">Html</button>
+                    <button class="boton">Css</button>
+                    <button class="boton">Programación</button>
+                    <button class="boton">Hover</button>
+                    <button class="boton">Mixes</button>
+                    <button class="boton">Letras</button>
+                    <button class="boton">Música</button>
+                    <button class="boton">Turismo</button>
+                    <button class="boton">Html</button>
+                    <button class="boton">Css</button>
+                    <button class="boton">Programación</button>
+                    <button class="boton">Hover</button>
+            </section>
+<br>
+            <!--Cuadricula de videos-->
+            <section id="cuadriculaDeVideos">
+            
+                <!--Video 1-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video1.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebacanalpeque">
+                            <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal"> 
+                        </div>
+                             
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--Video 2-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video2.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebacanalpeque">
+                            <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal">
+                        </div>
+                        
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--Video 3-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video3.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebacanalpeque">
+                            <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal">  
+                          </div>
+                        
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--Video 4-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video4.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebacanalpeque">
+                            <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal">
+                        </div>
+                        
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--Video 5-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video5.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebacanalpeque">
+                           <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal"> 
+                        </div>
+                        
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--Video 6-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video6.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebacanalpeque">
+                             <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal">  
+                        </div>
+                        
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!--Video 7-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video1.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebacanalpeque">
+                             <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal"> 
+                        </div>
+                        
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Video 8-->
+                <div class="videos">
+                    <a href="">
+                        <img src="./imagenes/video2.webp" alt="Imagen del Video" width="200px" height="200px" class="video">  
+                    </a>
+                    <div class="inferior">
+                        <div class="pruebadecanalpeque">
+                              <img src="./imagenes/fotodecanal.jpg" alt="imagendecanal" class="imgcanal">
+                        </div>
+                      
+                        <!--Titulo, canal, y vistas-->
+                        <div class="columnaminiatura">
+                            <!--Titulo-->
+                            <h3>Esto es el titulo del video</h3>
+                            <!--vistas-->
+                            <p class="textopeque">SORPRENDENTE 11 M de vistas hace 1 año</p> 
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </main>
+    </body>
+</html>
