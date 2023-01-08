@@ -19,33 +19,21 @@ aside div{
     align-items: center;
 }
 
-.textobarra{
-
-    float: left;
-    display: block;
-    border-radius: 5px; 
+.botones{
     text-decoration: none;
     color: black;
+    float: left;
+    display: block;
+    background-color:rgb(210, 206, 206);
+    border-radius: 5px;
 }
-
-.boton{
-    margin-top: 10px;
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(233, 231, 231);
-}
-
-.boton:hover{
-    background-color:rgb(226, 225, 225);
-}
-
 .textoaside{
     text-decoration: none;
     color: black;
 }
 #cuadriculaDeVideos{
     display: grid;
+    background-color: black;
     grid-template-columns: 25% 25% 25% 25%;
 }
 #buscar{
@@ -53,37 +41,28 @@ height: 35px;
 border-radius: 25px 0px 0px 25px;
 padding-left: 15px;
 width: 500px;
-border: 1px solid rgb(210, 209, 209);
 }
 
 .inputylupa{
     display: flex;
     align-items: center;
 }
-.botonlupa{
+#botonlupa{
     border-radius: 0px 25px 25px 0px;
     border-left: none;
     height: 40px;
     width: 50px;
-    border: 1px solid rgb(210, 209, 209);
-}
 
-.botonlupa.hover{
-    background-color:rgb(226, 225, 225);
+ 
 }
-    
 
 #microboton{
     border-radius: 25px;
     height: 35px;
     width: 35px;
-    border: 1px solid rgb(210, 209, 209);
+    border: 1px solid black;
     }
 
-    #microboton:hover{
-        background-color:rgb(226, 225, 225);  
-        cursor: pointer;
-    }
 
 .iconos{
     width: 20px;
@@ -94,6 +73,7 @@ border: 1px solid rgb(210, 209, 209);
 .contenedor1{
     grid-column-start: auto;
     grid-column-end: -1;
+
 }
 
 .video{
@@ -104,6 +84,14 @@ border: 1px solid rgb(210, 209, 209);
 .videos{
     display: flex;
     flex-direction: column; 
+}
+
+.boton{
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(233, 231, 231);
+
 }
 
 .column{
@@ -140,7 +128,7 @@ border: 1px solid rgb(210, 209, 209);
 
 
 .imgcanal{
-    border-radius: 20px;
+   border-radius: 20px;
     width: 40px;
 }
 
@@ -148,6 +136,7 @@ border: 1px solid rgb(210, 209, 209);
     margin-top: 10px;
     width: 30px;
     border-radius: 20px;
+  
 }
 
 .textopeque{
@@ -156,10 +145,7 @@ border: 1px solid rgb(210, 209, 209);
 }
 
 .columnaminiatura{
-    color:rgb(39, 38, 38);
-    text-decoration: none;
-    float: left;
-    display: block;
+    color:black
 }
 
 #lupa{
@@ -167,19 +153,13 @@ border: 1px solid rgb(210, 209, 209);
     height: 20px;
 }
 
-.camarita{
-    width: 30px;
-    height: 30px;
-    border-radius: 5px;
-}
-
-.camarita:hover{
-    background-color:rgb(226, 225, 225);
-}
-      
-
-
 .micro{
     width: 20px;
     height: 20px;
 }
+/*
+.pruebacanal{
+    display: flex;
+    flex-direction: column;
+}
+*/
